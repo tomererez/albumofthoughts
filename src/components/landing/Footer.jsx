@@ -19,9 +19,6 @@ export default function Footer() {
           <h3 className="text-2xl font-bold text-[#F6E7B7] font-serif mb-2">
             אלבום מחשבות
           </h3>
-          <p className="text-[#D1DDE1]/70 text-sm">
-            מתנה לעצמך. דפים שמחזירים אותך לעצמך.
-          </p>
         </div>
         
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">

@@ -61,7 +61,7 @@ export default function HeroSection({ onScrollToPurchase }) {
             
             <div className="flex flex-wrap items-center gap-6 text-[#D1DDE1]/80 text-sm justify-center">
               <span className="flex items-center gap-2 flex-row-reverse">
-                <span>אפשרות לאריזה כמתנה</span>
+                <span>עטוף ברצון טוב</span>
                 <Gift className="w-4 h-4 text-[#F6E7B7]" />
               </span>
               <span className="flex items-center gap-2 flex-row-reverse">
@@ -107,8 +107,6 @@ export default function HeroSection({ onScrollToPurchase }) {
         </div>
       </div>
       
-      {/* Bottom decorative line */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#CBBE8E] to-transparent" />
       
       <IntroDialog open={introOpen} onOpenChange={setIntroOpen} />
     </section>
